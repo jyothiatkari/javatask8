@@ -1,0 +1,39 @@
+package batch82r;
+
+public class WeekDay2 {
+	public static void Week(String day) {
+		switch(day) {
+		case "sunday":
+			System.out.println("its holiday");
+			break;
+		case "monday":
+			System.out.println("its working day");
+			break;
+		case "tuesday":
+			System.out.println("its movie day");
+			break;
+		case "wednesday":
+			System.out.println("its outing day");
+			break;
+		case "thursday":
+			System.out.println("its temple day");
+			break;
+		case "friday":
+			System.out.println("its fry day");
+			break;
+		case "saturday":
+			System.out.println("its holiday2");
+			break;
+		default:
+			System.out.println("invalid");
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		
+ Week("sunday");
+ Week("day");
+	}
+
+}
