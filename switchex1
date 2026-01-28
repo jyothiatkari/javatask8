@@ -1,0 +1,29 @@
+package batch82r;
+
+public class Smallalpha {
+	public int Alpha(char ch) {
+		switch(ch) {
+		case 'a':
+			System.out.println("marks between 76 to 100");
+			break;
+		case 'b':
+			System.out.println("marks between 51 to 75");
+			break;
+		case 'c':
+			System.out.println("marks between 36 to 50");
+			break;
+		case 'f':
+			System.out.println("marks between 0 to 35");
+			break;
+			default:System.out.println("invalid");
+		}
+		return 0;
+	}
+
+	public static void main(String[] args) {
+	Smallalpha a=new Smallalpha();	
+   a.Alpha('a');
+   a.Alpha('g');
+	}
+
+}
